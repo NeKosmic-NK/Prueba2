@@ -20,7 +20,7 @@ let speed = neww - old
 let info = `
 ╠═〘 𝐈𝐍𝐅𝐎 𝐃𝐄𝐋 𝐁𝐎𝐓 〙 ═
 ╠
-╠* 𝐂𝐑𝐄𝐀𝐃𝐎𝐑: *Gustavo Peng*
+╠* 𝐂𝐑𝐄𝐀𝐃𝐎𝐑: *Shizu*
 ╠* 𝐏𝐑𝐄𝐅𝐈𝐉𝐎: *${usedPrefix}*
 ╠* 𝐂𝐇𝐀𝐓𝐒 𝐏𝐑𝐈𝐕𝐀𝐃𝐎𝐒: *${chats.length - groups.length}*
 ╠* 𝐂𝐇𝐀𝐓𝐒 𝐃𝐄 𝐆𝐑𝐔𝐏𝐎𝐒: *${groups.length}* 
@@ -31,7 +31,7 @@ let info = `
 ╠  *${speed}* 
 ╠  *𝚖𝚒𝚕𝚒𝚜𝚎𝚐𝚞𝚗𝚍𝚘𝚜*
 ╠ 
-╠═〘 𝐓𝐡𝐞𝐊𝐢𝐧𝐠-𝐁𝐨𝐭-𝐌𝐃 〙 ═
+╠═〘 𝗦𝗵𝗶𝘇𝘂 - 𝗕𝗼𝘁 〙 ═
 `.trim() 
 conn.reply(m.chat, info, m)
 }
@@ -46,3 +46,11 @@ let m = Math.floor(ms / 60000) % 60
 let s = Math.floor(ms / 1000) % 60
 console.log({ms,h,m,s})
 return [h, m, s].map(v => v.toString().padStart(2, 0) ).join(':')}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
